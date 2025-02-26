@@ -101,12 +101,7 @@ async def upload(bot: Client, m: Message):
             res = "UN"
     except Exception:
             res = "UN"
-await editable.edit("📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 :
-┏━━━━━━━━━❥♡
-┣●➠
-┗━━━━━━━━━❥♡
-
-━━━━━━━━✦📖🇮🇳📖✦━━━━━━━━ -")
+await editable.edit-")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
