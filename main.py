@@ -52,7 +52,7 @@ async def upload(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
 
-    path = f"./downloads/{m.chat.id}"
+    path = f"./downloads/{m.chat.id}"JB
 
     try:
        with open(x, "r") as f:
@@ -74,7 +74,7 @@ async def upload(bot: Client, m: Message):
     raw_text = input0.text
     await input0.delete(True)
 
-    await editable.edit("**Now Please Send Me Your Batch Name**")
+    await editable.edit("**Now Please Send Me Your 📚𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:➠**")
     input1: Message = await bot.listen(editable.chat.id)
     raw_text0 = input1.text
     await input1.delete(True)
@@ -104,7 +104,12 @@ async def upload(bot: Client, m: Message):
     
     
 
-    await editable.edit(" EXTRACTED BY:-")
+    await editable.edit("📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 :
+┏━━━━━━━━━❥♡
+┣●➠
+┗━━━━━━━━━❥♡
+
+━━━━━━━━✦📖🇮🇳📖✦━━━━━━━━ -")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
