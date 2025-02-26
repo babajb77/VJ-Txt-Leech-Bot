@@ -101,10 +101,7 @@ async def upload(bot: Client, m: Message):
             res = "UN"
     except Exception:
             res = "UN"
-    
-    
-
-    await editable.edit("📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 :
+await editable.edit("📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 :
 ┏━━━━━━━━━❥♡
 ┣●➠
 ┗━━━━━━━━━❥♡
@@ -170,9 +167,9 @@ async def upload(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:  
-                
-                cc = f'**[📽️] Vid_ID:** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}.mkv\n**📚 BATCH NAME :●➠ » ** » **{raw_text0}**\n\n📥EXTRACTED BY :-{MR}'
-                cc1 = f'**[📁] Pdf_ID:** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}.pdf \n**📚 BATCH NAME :●➠ » ** » **{raw_text0}**\n\n📥EXTRACTED BY :-{MR}'
+        
+                cc = f'**[📽️] Vid_ID:** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}.mkv\n** 📚𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:➠** » **{raw_text0}**\n\n 📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 :-{MR}'
+                cc1 = f'**[📁] Pdf_ID:** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}.pdf \n**📚𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:➠** » **{raw_text0}**\n\n 📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 :-{MR}'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
